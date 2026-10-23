@@ -3,10 +3,9 @@ import java.util.Scanner;
 
 public class StudentManagement {
 
-    // Apna MySQL password yahan daalo
-    static final String URL  = "jdbc:mysql://localhost:3306/college";
-    static final String USER = "root";
-    static final String PASS = "Anish&alok123";
+    private static final String URL  = "jdbc:mysql://localhost:3306/college";
+    private static final String USER = "root";
+    private static final String PASS = "Anish&alok123";
 
     static Scanner sc = new Scanner(System.in);
 
